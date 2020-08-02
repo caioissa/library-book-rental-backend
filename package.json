@@ -1,0 +1,26 @@
+{
+  "name": "biblioteca-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "db": "mongod --config mongod.conf",
+    "test": "jest --watchAll --runInBand"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "supertest": "^4.0.2",
+    "jest": "^26.0.1"
+  }
+}
