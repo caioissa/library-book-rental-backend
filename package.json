@@ -17,7 +17,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.9.18",
-    "validator": "^13.0.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "supertest": "^4.0.2",
